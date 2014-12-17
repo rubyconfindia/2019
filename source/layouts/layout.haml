@@ -9,6 +9,7 @@
     %meta{:content => "width=device-width", :name => "viewport"}
     / Place favicon.ico and apple-touch-icon.png in the root directory
     = stylesheet_link_tag "all"
+    = stylesheet_link_tag "font-awesome/css/font-awesome.min"
     = javascript_include_tag "vendor/modernizr-2.6.1.min"
   %body
     %nav.navbar.navbar-inverse.navbar-fixed-top{:role => "navigation"}
@@ -26,20 +27,19 @@
               %a{:href => "/venue.html"} Venue
             %li
               %a{:href => "/policy.html"} Policy
+            %li
+              %a{:href => "/about.html"} About
     %header.banner
       .fill
     .container
       = yield
     %footer
       .container.text-center
-        .col-md-4.col-md-offset-4
-          %h3 Contact
-          %p
-            Email: 
-            %a{:href => "mailto:team@rubyconfindia.org"} team@rubyconfindia.org
-          %p Ajey Gore - +919764999768
-          %p Gautam Rege - +919881395656
-          %p Niranjan Paranjape - +919538998499
+        %h5
+          Contact us
+          %a.link{:href => "mailto:team@rubyconfindia.org"} team@rubyconfindia.org
+          \/ Follow us on 
+          %a.link{:href => "http://twitter.com/rubyconfindia"} Twitter
             
     = javascript_include_tag "main"
     
