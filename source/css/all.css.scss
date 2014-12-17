@@ -35,6 +35,27 @@ footer {
     color: #9d9d9d;
 }
 
+.padding-down {
+    padding-bottom: 15px;
+}
+
+.link {
+    color: #BD4051;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #008080;
+}
+
+.navbar-inverse .navbar-nav li a:hover {
+    color: #BD4051;
+}
+
+.navbar-inverse .navbar-brand:hover {
+    color: #BD4051;
+}
+
 .btn {
     padding-left: 0;
     padding-right: 0;
@@ -53,52 +74,26 @@ footer {
     box-shadow: 4px 4px 3px #222222;
 }
 
-.padding-down {
-    padding-bottom: 15px;
-}
-
 .thumbnail {
     background-color: rgba(0,0,0,0.1);
 }
 
+.thumbnail .img-responsive {
+    box-shadow: 0 0 4px 2px #444444;
+}
 
-.fa {
+.thumbnail .fa {
     color: #7B3044;
     font-size: 26px!important;
 }
 
-.fa:hover {
+.thumbnail .fa:hover {
     color: #008080;
 }
 
-.img-responsive {
-        box-shadow: 0 0 4px 2px #444444;
-
-}
-
-.caption .h4 {
+.thumbnail .caption .h4 {
     background-color: #BD4051;
     border-radius: 20px;
     color: #ffffff;
     line-height: 150%;
-}
-
-.link {
-    color: #BD4051;
-
-}
-
-.link:hover {
-    text-decoration: none;
-    color: #008080;
-}
-
-
-.navbar-inverse .navbar-nav li a:hover {
-    color: #BD4051;
-}
-
-.navbar-inverse .navbar-brand:hover {
-        color: #BD4051;
-
 }
