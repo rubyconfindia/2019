@@ -1,4 +1,5 @@
 .banner {
+  position: relative;
   height: 500px;
   width: 100%;
   background: #a00 image-url("/images/header.svg") center center repeat;
@@ -16,6 +17,18 @@
   a {
     color: inherit;
     text-decoration: none;
+  }
+
+  a.mail,
+  a.twitter {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    box-shadow: 0 0 4px rgba($black, 0.3);
+  }
+
+  a.twitter {
+    right: 60px;
   }
   
   h1 a, h3 {

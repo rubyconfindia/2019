@@ -34,7 +34,6 @@
 }
 
 .speakers {
-
   h3,
   h4 {
     margin: 0;
@@ -54,22 +53,13 @@
 
   a.twitter,
   a.github {
-    display: block;
     position: absolute;
     top: 185px;
     right: 6px;
-    width: 30px;
-    height: 30px;
-    overflow: hidden;
-    text-indent: -100em;
-    background: $white image-url("/images/twitter.svg") no-repeat center center;
-    border-radius: 15px;
-    box-shadow: 0 0 4px rgba($black, 0.6);
   }
 
   a.github {
     right: 44px;
-    background-image: image-url("/images/github.svg");
   }
 }
 

@@ -1,0 +1,20 @@
+a.twitter,
+a.github,
+a.mail {
+  display: block;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  text-indent: -100em;
+  background: $white image-url("/images/twitter.svg") no-repeat center center;
+  border-radius: 15px;
+  box-shadow: 0 0 4px rgba($black, 0.6);
+}
+
+a.github {
+  background-image: image-url("/images/github.svg");
+}
+
+a.mail {
+  background-image: image-url("/images/mail.svg");
+}

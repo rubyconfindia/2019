@@ -1,0 +1,14 @@
+.footer {
+  background: $red;
+  color: $white;
+  text-align: center;
+
+  margin: 20px 0 0 0;
+  padding: 40px;
+
+  a {
+    text-decoration: none;
+    border-bottom: dotted 1px;
+    color: $yellow-light;
+  }
+}

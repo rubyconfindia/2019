@@ -11,7 +11,7 @@
   </head>
   
   <body id="<%= current_page.data.page_id %>">
-      <header class="banner" role="banner">
+    <header class="banner" role="banner">
       <div>
         <h1><a href=".">
           RubyConf
@@ -20,6 +20,9 @@
         <h2>April 3-5, 2015</h2>
         <h3><a href="http://cidadedegoa.com/">Cidade de Goa</a></h3>
       </div>
+
+      <a class="mail" href="mailto:team@rubyconfindia.org">team@rubyconfindia.org</a>
+      <a class="twitter" href="http://twitter.com/rubyconfindia" target="_blank">@rubyconfindia</a>
     </header>
 
     <div class="actions">
@@ -39,6 +42,14 @@
 
     <div class="main">
       <%= yield %>
+    </div>
+
+    <div class="footer">
+      Contact us at 
+      <a href="mailto:team@rubyconfindia.org">team@rubyconfindia.org</a>
+
+      &amp; follow us at
+      <a href="http://twitter.com/rubyconfindia" target="_blank">@rubyconfindia</a>
     </div>
   </body>
 </html>
