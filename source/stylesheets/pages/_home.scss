@@ -5,7 +5,7 @@
   line-height: 20px;
   font-size: 24px;
   border-top: solid 1px $gray;
-  margin: 20px 0;
+  margin: 60px 0 20px 0;
 
   span {
     display: block;
@@ -16,7 +16,8 @@
   }
 }
 
-.speakers {
+.speakers,
+.partners {
   display: block;
   margin: 0;
   padding: 0;
@@ -29,7 +30,10 @@
     margin: 12px;
     padding: 0;
     width: 200px;
-  }
+  }  
+}
+
+.speakers {
 
   h3,
   h4 {
@@ -66,5 +70,11 @@
   a.github {
     right: 44px;
     background-image: image-url("/images/github.svg");
+  }
+}
+
+.partners {
+  li {
+    margin: 12px 36px;
   }
 }
