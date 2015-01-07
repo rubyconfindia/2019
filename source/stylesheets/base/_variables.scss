@@ -1,0 +1,34 @@
+// Variables
+// =========
+
+$white: #fff;
+$black: #000;
+$gray-dark: lighten($black, 20%);
+$gray: lighten($black, 40%);
+$gray-light: lighten($black, 50%);
+$gray-xlight: lighten($black, 75%);
+$gray-xxlight: lighten($black, 90%);
+
+$blue: #2da4cc;
+$blue-light: lighten($blue, 20%);
+
+$red: #900;
+$red-light: lignten($red, 20%);
+$red-dark: #950000;
+
+$brown: #ffc62a;
+$brown-light: lighten($brown, 50%);
+
+$yellow: #fc0;
+$yellow-light: lighten($yellow, 30%);
+$yellow-xlight: lighten($yellow, 40%);
+
+$cream: $yellow-xlight;
+
+// $yellow-light: 
+
+// Fonts
+// =========
+
+
+$sans: "freight-sans-pro", "helvetica neue", helvetica, arial, sans-serif;

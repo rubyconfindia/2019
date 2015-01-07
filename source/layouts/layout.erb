@@ -2,18 +2,43 @@
 <html>
   <head>
     <meta charset="utf-8">
-    
-    <!-- Always force latest IE rendering engine or request Chrome Frame -->
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <title><%= current_page.data.title || "RubyConf India 2015" %></title>
     
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "The Middleman" %></title>
-    
-    <%= stylesheet_link_tag "normalize", "all" %>
-    <%= javascript_include_tag  "all" %>
+    <%= stylesheet_link_tag "style" %>
+    <script src="//use.typekit.net/jjh2aje.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
   </head>
   
-  <body class="<%= page_classes %>">
-    <%= yield %>
+  <body id="<%= current_page.data.page_id %>">
+      <header class="banner" role="banner">
+      <div>
+        <h1><a href=".">
+          RubyConf
+          <span>India</span>
+        </a></h1>
+        <h2>April 3-5, 2015</h2>
+        <h3><a href="http://cidadedegoa.com/">Cidade de Goa</a></h3>
+      </div>
+    </header>
+
+    <div class="actions">
+      <div>
+        <h3>Limited Tickets Available</h3>
+        <p>Ticket includes access to the conference + accomodation + all meals</p>
+        <a href="http://www.townscript.com/rubyconfindia2015" target="_blank" class="primary">Register Now!</a>
+        <a href="code-of-conduct.html">Code of Conduct</a>
+      </div>
+       
+      <div>
+        <h3>Propose a talk</h3>
+        <p>talks + workshops for the conference. CFP closes on January 15</p>
+        <a href="http://cfp.rubyconfindia.org" target="_blank" class="primary">Submit Talk</a>
+      </div>
+    </div>
+
+    <div class="main">
+      <%= yield %>
+    </div>
   </body>
 </html>

@@ -51,6 +51,9 @@ set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
 
+# set :markdown_engine, :redcarpet
+set :markdown, :parse_block_html => true
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
@@ -72,5 +75,5 @@ end
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.method = :git
-  deploy.branch = "master"
+  deploy.branch = "gh-pages"
 end
