@@ -1,7 +1,7 @@
 .banner {
   height: 500px;
   width: 100%;
-  background: #a00 url("/images/header.svg") center center repeat;
+  background: #a00 image-url("/images/header.svg") center center repeat;
   background-size: 100% auto;
   text-align: center;
   
@@ -30,7 +30,7 @@
   h1 {
     padding: 90px 0 20px 0;
     margin-bottom: 10px;
-    background: transparent url("/images/logo.svg") no-repeat top center;     
+    background: transparent image-url("/images/logo.svg") no-repeat top center;     
     background-size: 72px auto;
     border-bottom: solid 1px $red;
     color: $black;
