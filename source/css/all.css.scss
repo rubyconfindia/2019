@@ -98,3 +98,20 @@ footer {
     color: #ffffff;
     line-height: 150%;
 }
+
+.gold-sponsor {
+	min-height: 350px;
+  .logo {
+		display: inline-block;
+		min-height: 150px;
+		img {
+			display: inline-block;
+			position: relative;
+			padding: 10px;
+		}
+	}
+	.fa {
+		padding-top: 5px;
+    font-size: 46px!important;
+	}
+}
