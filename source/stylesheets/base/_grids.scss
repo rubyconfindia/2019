@@ -6,7 +6,15 @@
 $susy: (
   columns: 12,
   gutters: 1/4,
+  gutter-position: outside,
+  column-width: 80px,
+  global-box-sizing: border-box
 );
+
+.container {
+  @include container;
+  padding: 20px 0;
+}
 
 $phone: max-width 400px;
 $tablet-small: 400px;

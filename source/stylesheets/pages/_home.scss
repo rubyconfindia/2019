@@ -23,13 +23,26 @@
   padding: 0;
   text-align: center;
 
+  img {
+    max-width: 100%;
+  }
+
   li {
     display: inline-block;
     position: relative;
     list-style-type: none;
     margin: 12px;
     padding: 0;
-    width: 200px;
+    width: 120px;
+    text-align: center;
+
+    @include breakpoint($tablet-small) {
+      width: 160px;
+    }
+
+    @include breakpoint($pc) {
+      width: 200px;
+    }
   }  
 }
 
@@ -54,8 +67,16 @@
   a.twitter,
   a.github {
     position: absolute;
-    top: 185px;
+    top: 105px;
     right: 6px;
+
+    @include breakpoint($tablet-small) {
+      top: 145px;
+    }
+
+    @include breakpoint($pc) {
+      top: 185px;
+    }
   }
 
   a.github {
@@ -65,6 +86,17 @@
 
 .partners {
   li {
-    margin: 12px 36px;
+    padding: 6px 18px;
+    margin: 0;
+    width: 100%;
+
+    @include breakpoint($tablet-small) {
+      padding: 9px 27px;
+      width: 46%;
+    }
+
+    @include breakpoint($tablet) {
+      width: 30%;
+    }
   }
 }
