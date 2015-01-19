@@ -1,7 +1,9 @@
 body {
 	font: 16px/1.5 $sans;
 
-	@media screen and (max-width: 700px) { font-size: 14px;}
+  @include breakpoint($tablet-small) {
+    font-size: 14px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6, p, ol, ul ,li {
