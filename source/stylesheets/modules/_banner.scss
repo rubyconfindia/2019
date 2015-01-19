@@ -1,13 +1,22 @@
 .banner {
   position: relative;
-  height: 500px;
+  height: 320px;
   width: 100%;
   background: #a00 image-url("/images/header.svg") center center repeat;
   background-size: 100% auto;
   text-align: center;
+
+  @include breakpoint($tablet) {
+    height: 320px;
+  }
+
+  @include breakpoint($pc) {
+    height: 500px;
+  }
+
   
   div {
-    width: 220px;
+    width: 225px;
     padding: 20px;
     background: $white;
     margin: 0 auto;
@@ -22,9 +31,13 @@
   a.mail,
   a.twitter {
     position: absolute;
-    top: 20px;
+    top: 280px;
     right: 20px;
     box-shadow: 0 0 4px rgba($black, 0.3);
+
+    @include breakpoint($tablet-small) {
+      top: 20px;
+    }
   }
 
   a.twitter {

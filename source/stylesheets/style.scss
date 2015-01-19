@@ -4,8 +4,10 @@
 @import "compass/css3";
 @import "compass/css3/images";
 @import "compass/utilities/general/clearfix";
-@import "base/grids";
+@import "breakpoint";
+@import "susy";
 
+@import "base/grids";
 @import "base/variables";
 @import "base/typography";
 

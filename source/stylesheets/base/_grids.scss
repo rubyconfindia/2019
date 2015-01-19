@@ -1,7 +1,6 @@
 // Requirements
 // ============
 
-@import "susy";
 @include border-box-sizing;
 
 $susy: (
@@ -9,3 +8,7 @@ $susy: (
   gutters: 1/4,
 );
 
+$phone: max-width 400px;
+$tablet-small: 400px;
+$tablet: 640px;
+$pc: 800px;

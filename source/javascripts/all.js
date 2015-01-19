@@ -1,1 +1,2 @@
-//= require_tree .
+= require "zepto.js";
+= require_tree .;
