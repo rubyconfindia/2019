@@ -1,0 +1,40 @@
+nav {
+  border-bottom: solid 1px $gray-xxlight;
+
+  ul {
+    margin: 0 0 10px 0;
+    padding: 0;
+    text-align: center;
+
+    @include breakpoint($tablet) {
+      text-align: left;
+      margin-left: -20px;
+    }
+  }
+
+  li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+  }
+
+  a {
+    display: inline-block;
+    color: $red;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 36px;
+    padding: 0 10px;
+    font-size: 16px;
+    font-weight: 500;
+
+    @include breakpoint($tablet) {
+      padding: 0 20px;
+    }
+
+    &:hover {
+      background: $cream;
+    }
+  }
+}

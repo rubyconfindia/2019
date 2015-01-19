@@ -3,10 +3,11 @@
   height: 320px;
   width: 100%;
   background: #a00 image-url("/images/header.svg") center center repeat;
-  background-size: 100% auto;
+  background-size: auto 100%;
   text-align: center;
 
   @include breakpoint($tablet) {
+    background-size: 100% auto;
     height: 320px;
   }
 
