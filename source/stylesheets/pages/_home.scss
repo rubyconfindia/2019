@@ -122,6 +122,11 @@
 
       @include breakpoint($tablet-small) {
         padding: 9px 27px;
+        width: 75%;
+      }
+
+      @include breakpoint($pc) {
+        padding: 9px 27px;
         width: 46%;
       }
 
@@ -129,12 +134,16 @@
       .github {
         display: block;
         position: absolute;
-        bottom: 0;
+        bottom: 0px;
         right: 0;
       }
 
       .github {
         right: 40px;
+      }
+      .caption {
+        display: block;
+        padding: 15px 0 25px 0;
       }
     }    
   }
