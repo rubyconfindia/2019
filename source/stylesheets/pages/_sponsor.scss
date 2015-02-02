@@ -1,0 +1,32 @@
+#sponsor {
+  .text-center {
+    text-align: center;
+  }
+
+  .header {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 20px 0 5px;
+  }
+  
+  .caption {
+    font-size: 24px;
+  }
+  
+  .prospectus {
+    margin: 30px 0;
+  }
+  
+  .btn {
+    color: white;
+    background-color: #70191f;
+    padding: 15px;
+    font-size: 18px;
+    text-decoration: none;
+    @include border-radius(15px);
+    @include box-shadow();
+    &:hover {
+      background-color: #8c1c22;
+    };
+  }
+}
