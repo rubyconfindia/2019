@@ -36,6 +36,7 @@
     padding: 0;
     width: 120px;
     text-align: center;
+    vertical-align: top;
 
     @include breakpoint($tablet-small) {
       width: 160px;
