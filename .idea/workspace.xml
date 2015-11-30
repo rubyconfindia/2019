@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdf0b1f6-4d20-49b9-ae77-49dc5291ba26" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/RCI_Sponsorship_2015.pdf" afterPath="$PROJECT_DIR$/2015/RCI_Sponsorship_2015.pdf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/2015/about.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/code-of-conduct.html" afterPath="$PROJECT_DIR$/2015/code-of-conduct.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/faq.html" afterPath="$PROJECT_DIR$/2015/faq.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/github-f71fdc8d.svg" afterPath="$PROJECT_DIR$/2015/images/github-f71fdc8d.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/header-f052d5d1.svg" afterPath="$PROJECT_DIR$/2015/images/header-f052d5d1.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/logo-2b47974f.svg" afterPath="$PROJECT_DIR$/2015/images/logo-2b47974f.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/mail-8d4d7189.svg" afterPath="$PROJECT_DIR$/2015/images/mail-8d4d7189.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/partners/hiveage-d968f68b.png" afterPath="$PROJECT_DIR$/2015/images/partners/hiveage-d968f68b.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/partners/thenewstack-69a78168.png" afterPath="$PROJECT_DIR$/2015/images/partners/thenewstack-69a78168.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/partners/townscript-ac12623e.png" afterPath="$PROJECT_DIR$/2015/images/partners/townscript-ac12623e.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/partners/uncommon-ca8f9440.png" afterPath="$PROJECT_DIR$/2015/images/partners/uncommon-ca8f9440.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/partners/yodlee-0709a769.png" afterPath="$PROJECT_DIR$/2015/images/partners/yodlee-0709a769.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/speakers/aaron-0a9c61d8.jpeg" afterPath="$PROJECT_DIR$/2015/images/speakers/aaron-0a9c61d8.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/speakers/aslak-0814444e.jpeg" afterPath="$PROJECT_DIR$/2015/images/speakers/aslak-0814444e.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/speakers/bryan-fa3c5bcf.jpeg" afterPath="$PROJECT_DIR$/2015/images/speakers/bryan-fa3c5bcf.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/speakers/eleanor-19ff1216.jpeg" afterPath="$PROJECT_DIR$/2015/images/speakers/eleanor-19ff1216.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/speakers/laurent-38b73d5a.jpeg" afterPath="$PROJECT_DIR$/2015/images/speakers/laurent-38b73d5a.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/speakers/pj-5c2a3d12.jpeg" afterPath="$PROJECT_DIR$/2015/images/speakers/pj-5c2a3d12.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/speakers/terence-f48e8039.jpeg" afterPath="$PROJECT_DIR$/2015/images/speakers/terence-f48e8039.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/speakers/zzak-7e2855fe.jpeg" afterPath="$PROJECT_DIR$/2015/images/speakers/zzak-7e2855fe.jpeg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sponsors/bigbinary-14cdd54a.png" afterPath="$PROJECT_DIR$/2015/images/sponsors/bigbinary-14cdd54a.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sponsors/c42-28e55b65.png" afterPath="$PROJECT_DIR$/2015/images/sponsors/c42-28e55b65.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sponsors/codeignition-d5995017.png" afterPath="$PROJECT_DIR$/2015/images/sponsors/codeignition-d5995017.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sponsors/cuelogic-f6fdf647.png" afterPath="$PROJECT_DIR$/2015/images/sponsors/cuelogic-f6fdf647.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sponsors/cybrilla-9388768a.png" afterPath="$PROJECT_DIR$/2015/images/sponsors/cybrilla-9388768a.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sponsors/freshdesk-257d01d9.png" afterPath="$PROJECT_DIR$/2015/images/sponsors/freshdesk-257d01d9.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sponsors/josh-8b1d99c9.png" afterPath="$PROJECT_DIR$/2015/images/sponsors/josh-8b1d99c9.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sponsors/nilenso-0aa6e916.png" afterPath="$PROJECT_DIR$/2015/images/sponsors/nilenso-0aa6e916.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sponsors/oyo-5e78c079.png" afterPath="$PROJECT_DIR$/2015/images/sponsors/oyo-5e78c079.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sponsors/punchh-44600285.png" afterPath="$PROJECT_DIR$/2015/images/sponsors/punchh-44600285.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sponsors/qwinix-99a41710.png" afterPath="$PROJECT_DIR$/2015/images/sponsors/qwinix-99a41710.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sponsors/railsfactory-4d78dc1f.png" afterPath="$PROJECT_DIR$/2015/images/sponsors/railsfactory-4d78dc1f.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sponsors/rubysoftware-92ebdf16.png" afterPath="$PROJECT_DIR$/2015/images/sponsors/rubysoftware-92ebdf16.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/sponsors/you-7ca43a82.png" afterPath="$PROJECT_DIR$/2015/images/sponsors/you-7ca43a82.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/twitter-ee65c60c.svg" afterPath="$PROJECT_DIR$/2015/images/twitter-ee65c60c.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/2015/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/javascripts/all-da39a3ee.js" afterPath="$PROJECT_DIR$/2015/javascripts/all-da39a3ee.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/javascripts/zepto-720e03ef.js" afterPath="$PROJECT_DIR$/2015/javascripts/zepto-720e03ef.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/schedule.html" afterPath="$PROJECT_DIR$/2015/schedule.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sponsor.html" afterPath="$PROJECT_DIR$/2015/sponsor.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/stylesheets/style-869af60a.css" afterPath="$PROJECT_DIR$/2015/stylesheets/style-869af60a.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="rubyconfindia.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="15.606944">
-              <caret line="677" column="77" selection-start-line="677" selection-start-column="77" selection-end-line="677" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.49583334">
+              <caret line="87" column="164" selection-start-line="87" selection-start-column="164" selection-end-line="87" selection-end-column="164" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -222,9 +181,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -253,8 +212,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="15.606944">
-          <caret line="677" column="77" selection-start-line="677" selection-start-column="77" selection-end-line="677" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.49583334">
+          <caret line="87" column="164" selection-start-line="87" selection-start-column="164" selection-end-line="87" selection-end-column="164" />
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
