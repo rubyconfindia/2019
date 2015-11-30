@@ -1,0 +1,164 @@
+
+.tabs {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 0 2em;
+	font-weight: 300;
+}
+
+/* Nav */
+.tabs nav {
+	text-align: center;
+	background-color:transparent;
+	margin-top: -1px; 
+}
+
+.tabs nav ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: inline-block;
+	width:100%;
+}
+
+.tabs nav ul li {
+	border-bottom:medium none;
+	background:#212739;
+	display: block;
+	float: left;
+  font-size:8pt;
+	position: relative;
+	width:calc(100%/4);
+	-moz-transition: all 0.2s ease-in-out 0.2s;
+    -o-transition: all 0.2s ease-in-out 0.2s;
+    -webkit-transition: all 0.2s ease-in-out 0.2s;
+    transition: all 0.2s ease-in-out 0.2s
+	
+}
+
+.tabs nav ul li :hover {
+    background: #1bd982;
+    -moz-transition: all 0.2s ease-in-out 0.2s;
+    -o-transition: all 0.2s ease-in-out 0.2s;
+    -webkit-transition: all 0.2s ease-in-out 0.2s;
+    transition: all 0.2s ease-in-out 0.2s
+    }
+
+.tabs nav li.tab-current {
+
+	background:#1bd982;
+}
+
+.tabs nav a {
+	color: #fff;
+	display: block;
+	font-size: 1.45em;
+	line-height: 2.5;
+	padding: 0 1.25em;
+	text-decoration:none;
+	white-space: nowrap;
+}
+
+.tabs nav a:hover {
+	color: #fff;
+}
+
+.tabs nav li.tab-current a {
+	color: #fff;
+}
+
+/* Icons */
+.tabs nav a:before {
+	display: inline-block;
+	vertical-align: middle;
+	text-transform: none;
+	font-weight: normal;
+	font-variant: normal;
+	font-family: 'icomoon';
+	line-height: 1;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	margin: -0.25em 0.4em 0 0;
+}
+
+.icon-food:before {
+	content: "\e600";
+}
+
+.icon-lab:before {
+	content: "\e601";
+}
+
+.icon-cup:before {
+	content: "\e602";
+}
+
+.icon-truck:before {
+	content: "\e603";
+}
+
+.icon-shop:before {
+	content: "\e604";
+}
+
+/* Content */
+.content section {
+	font-size: 1.25em;
+	/*padding: 3em 1em;*/
+	display: none;
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.content section:before,
+.content section:after {
+	content: '';
+	display: table;
+}
+
+.content section:after {
+	clear: both;
+}
+
+/* Fallback example */
+.no-js .content section {
+	display: block;
+	padding-bottom: 2em;
+	border-bottom: 1px solid #47a3da;
+}
+
+.content section.content-current {
+	display: block;
+}
+
+/* Example media queries */
+
+@media screen and (max-width: 52.375em) {
+	
+
+	.tabs nav a:before {
+		margin-right: 0;
+	}
+
+}
+
+@media screen and (max-width: 32em) {
+	.tabs nav ul,
+	.tabs nav ul li a {
+		width: 100%;
+		padding: 0;
+	}
+
+	.tabs nav ul li {
+		width: 20%;
+		width: calc(20% + 1px);
+		margin: 0 0 0 -1px;
+	}
+
+	.tabs nav ul li:last-child {
+		border-right: none;
+	}
+
+	
+}
