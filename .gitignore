@@ -1,0 +1,8 @@
+_site
+.sass-cache
+.DS_Store
+bin/
+.idea/*
+Thumbs.db
+_site/
+.bundle/
