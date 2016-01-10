@@ -1,0 +1,73 @@
+.gci-bold {
+  font-weight: bold;
+}
+
+.gci-heading {
+  font-family: arial;
+  margin-bottom:10px;
+  font-weight: 600;
+}
+
+.gci-heading-1 {
+  font-size: 28px;
+  margin-bottom:22px;
+  color: #898989;
+}
+
+.gci-heading-2 {
+  font-size: 22px;
+  margin-bottom:15px;
+  color: #898989;
+}
+
+.gci-heading-3 {
+  font-size: 18px;
+  margin-bottom:12px;
+}
+
+.gci-heading-4 {
+  font-size: 16px;
+}
+
+.gci-heading-5 {
+  font-size: 14px;
+}
+
+.gci-heading-6 {
+  font-size: 12px;
+}
+
+.gci-unordered-list {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.gci-unordered-list li {
+  font-size: 16px;
+}
+
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+

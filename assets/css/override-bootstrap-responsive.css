@@ -1,0 +1,61 @@
+/*Mobile portrait*/
+@media (max-width:480px) {
+	.sticker > span.pull-right{
+		float:none!important;
+	}
+}
+
+/*Mobile landscape*/
+@media (min-width: 481px) and (max-width:599px) {
+	.sticker > span.pull-right{
+		float:none!important;
+	}
+}
+
+/*Small tablet portrait*/
+@media (min-width: 600px) and (max-width: 767px) {
+	.sticker > span.pull-right{
+		float:none!important;
+	}
+}
+
+/*Small tablet landscape*/
+@media (min-width: 768px) and (max-width: 979px) {
+	.sticker  > span.pull-right{
+		float:none!important;
+	}
+}
+/*Tablet portrait*/
+@media (min-width:801px) and (max-width:1023px) {
+	.sticker > span.pull-right{
+		float:none!important;
+	}
+}
+
+/*Tablet landscape (1024x768)*/
+@media (min-width: 992px) and (max-width: 1199px){
+
+}
+
+/*Tablet landscape*/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/*large monitor*/
+@media (min-width:1400px) and (max-width:1920px){
+
+}
+
+#page-top .navbar-inverse .navbar-brand{
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #c1c1c1;
+}
+
+.container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+  margin-top: 8px;
+}
+
