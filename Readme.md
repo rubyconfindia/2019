@@ -3,16 +3,15 @@
 ##Dependencies
 
 1. Ruby
-2. Bundler
 
 ##Setup
 
 ```
-bundle install
+gem install jekyll
 ```
 
 ##Run Locally
 
 ```
-bundle exec jekyll serve
+jekyll serve
 ```
