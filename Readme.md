@@ -1,4 +1,4 @@
-#RubyConfIndia
+#RubyConfIndia Website
 
 ##Dependencies
 
@@ -7,11 +7,11 @@
 ##Setup
 
 ```
-gem install jekyll
+bundle install
 ```
 
 ##Run Locally
 
 ```
-jekyll serve
+bundle exec jekyll serve
 ```
