@@ -9,17 +9,29 @@
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@rubyconfindia" />
 <meta name="twitter:creator" content="@IndianGuru" />
-<meta name="twitter:title" content="RubyConfIndia - RubyConf's Indian edition" />
-<meta name="twitter:description" content="The Indian edition of the international Ruby programming language conference. It is organized annually on a not-for-profit basis by volunteers." />
 <meta name="twitter:image" content="http://www.rubyconfindia.org/assets/images/logo.png" />
 
 <!-- Facebook meta tags -->
 <meta property="og:site_name" content="RubyConf India" />
 <meta property="og:url" content="http://rubyconfindia.org/" />
 <meta property="og:type" content="website" />
-<meta property="og:title" content="RubyConfIndia - RubyConf's Indian edition" />
-<meta property="og:description" content="The Indian edition of the international Ruby programming language conference. It is organized annually on a not-for-profit basis by volunteers." />
 <meta property="og:image" content="http://www.rubyconfindia.org/assets/images/logo.png" />
+
+{% if page.meta_title %}
+  <meta name="twitter:title" content="{{ page.meta_title }}" />
+  <meta property="og:title" content="{{ page.meta_title }}" />
+{% else %}
+  <meta name="twitter:title" content="{{ site.meta_title }}" />
+  <meta property="og:title" content="{{ site.meta_title }}" />
+{% endif %}
+
+{% if page.meta_description %}
+  <meta name="twitter:description" content="{{ page.meta_description }}" />
+  <meta property="og:description" content="{{ page.meta_description }}" />
+{% else %}
+  <meta name="twitter:description" content="{{ site.meta_description }}" />
+  <meta property="og:description" content="{{ site.meta_description }}" />
+{% endif %}
 
 <link rel="favicon" href="/favicon.ico">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
