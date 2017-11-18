@@ -6,8 +6,8 @@ description: > # this means to ignore newlines until "baseurl:"
   It is organized annually on a not-for-profit basis by volunteers.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://rubyconfindia.org" # the base hostname & protocol for your site
-twitter_username: "@RubyConfIndia"
-github_username: smtalimett
+twitter_username: RubyConfIndia
+github_username: rubyconfindia
 encoding: UTF-8
 meta_title: RubyConfIndia - RubyConf's Indian edition
 meta_description: > #
