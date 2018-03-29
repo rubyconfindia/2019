@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   The Indian edition of the international Ruby programming language conference.
   It is organized annually on a not-for-profit basis by volunteers.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://rubyconfindia.org" # the base hostname & protocol for your site
+url: "https://www.rubyconfindia.org" # the base hostname & protocol for your site
 twitter_username: RubyConfIndia
 github_username: rubyconfindia
 encoding: UTF-8
