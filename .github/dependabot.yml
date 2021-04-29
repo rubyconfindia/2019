@@ -1,0 +1,18 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "23:30"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: github-pages
+    versions:
+    - "211"
+    - "212"
+    - "213"
+  - dependency-name: activesupport
+    versions:
+    - 5.2.4.4
+    - 5.2.4.5
